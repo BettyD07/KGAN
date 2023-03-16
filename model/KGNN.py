@@ -237,8 +237,8 @@ class KGNN2(nn.Module):
         output=self.fc(out)
         # return output, x, y, z
         return output
-
-    class KGNN_BERT(nn.Module):
+    
+class KGNN_BERT(nn.Module):
     def __init__(self, bert, args):
         super(KGNN_BERT, self).__init__()
         self.args = args
